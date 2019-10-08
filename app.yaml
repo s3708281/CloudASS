@@ -1,0 +1,24 @@
+runtime: php55
+api_version: 1
+
+handlers:
+- url: /*
+  script: /login.php
+
+- url: /main.php
+  script: /main.php
+
+- url: /login.php
+  script: /login.php
+
+- url: /register.php
+  script: /register.php
+
+- url: /customer.php
+  script: /customer.php
+
+- url: /pubsub.php
+  script: /pubsub.php
+
+- url: /subscribe.php
+  script: /subscribe.php
